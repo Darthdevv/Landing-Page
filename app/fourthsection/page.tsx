@@ -1,6 +1,6 @@
 const FourthSection = () => {
   return (
-    <div className="items-center flex justify-center md:py-10">
+    <section className="items-center flex justify-center md:py-10">
       <div
         className="text-center md:text-6xl text-4xl bg-gradient-to-r  from-blue-800  to-purple-300 bg-clip-text text-transparent pb-10 font-bold">
         Content Management System.Made Simple.
@@ -10,7 +10,7 @@ const FourthSection = () => {
           </video>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

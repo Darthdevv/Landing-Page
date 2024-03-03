@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ThirdSection = () => {
   return (
-    <div className="flex p-10 flex-col md:flex-row md:justify-evenly">
+    <section className="flex p-10 flex-col md:flex-row md:justify-evenly">
       <div className="flex-col md:flex-row gap-6 md:px-10 flex">
         <div className="md:w-2/3 w-full">
           <video className="rounded-xl" autoPlay muted loop>
@@ -80,7 +80,7 @@ const ThirdSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

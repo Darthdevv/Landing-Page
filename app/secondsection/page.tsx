@@ -52,12 +52,9 @@ const features = [
 const SecondSection = () => {
   return (
     <div className="">
-      <div
-        className=" md:flex-row flex-col items-center flex  justify-center pb-10"
-      >
+      <div className=" md:flex-row flex-col items-center flex  justify-center pb-10">
         <div className="p-5 justify-center md:w-1/3">
-          <div
-            className=" bg-gradient-to-r  from-blue-800  to-green-300 bg-clip-text text-transparent text-4xl md:text-6xl font-bold pb-10 ">
+          <div className=" bg-gradient-to-r  from-blue-800  to-green-300 bg-clip-text text-transparent text-4xl md:text-6xl font-bold pb-10 ">
             From startup to enterprise, Bird is built for every type of
             business.
           </div>
@@ -65,7 +62,10 @@ const SecondSection = () => {
             Built for all businesses and communities, Bird is the only platform
             you need to grow your business.
           </div>
-          <button className="bg-blue-500 text-white p-4 justify-center flex md:w-1/3 rounded-lg hover:bg-blue-600">
+          <button
+            aria-label="get started button"
+            className="bg-blue-500 text-white p-4 justify-center flex md:w-1/3 rounded-lg hover:bg-blue-600"
+          >
             Get Started
           </button>
         </div>
@@ -76,8 +76,7 @@ const SecondSection = () => {
       </div>
 
       <div className="flex-col items-center justify-center">
-        <div
-          className=" text-3xl flex justify-center md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r  from-purple-400  to-blue-800 bg-clip-text text-transparent">
+        <div className=" text-3xl flex justify-center md:text-5xl font-bold pt-5 pb-10 bg-gradient-to-r  from-purple-400  to-blue-800 bg-clip-text text-transparent">
           Product Features
         </div>
 
@@ -86,9 +85,9 @@ const SecondSection = () => {
             <div
               key={index}
               className="flex-col space-y-6 pb-10 border
-                        p-8 rounded-xl items-center justify-center w-full hover:scale-105 transform transition-all duration-500 ease-in-out">
-              <div
-                className="text-gray-600 text-3xl font-bold" >
+                        p-8 rounded-xl items-center justify-center w-full hover:scale-105 transform transition-all duration-500 ease-in-out"
+            >
+              <div className="text-gray-600 text-3xl font-bold">
                 <Image
                   src={feature.image}
                   alt={feature.alt}
@@ -97,12 +96,11 @@ const SecondSection = () => {
                   className="object-contain h-20 w-20 items-center justify-center flex mb-10"
                 />
                 <div>
-                  <div
-                    className="text-2xl pb-4 bg-gradient-to-t  from-black  to-gray-400 bg-clip-text text-transparent ">
+                  <div className="text-2xl pb-4 bg-gradient-to-t  from-black  to-gray-400 bg-clip-text text-transparent ">
                     {feature.name}
                   </div>
 
-                  <div className="bg-gradient-to-r from-gray-800 to-gray-500 bg-clip-text text-transparent text-lg">
+                  <div className="bg-gradient-to-r dark:from-white dark:to-gray-500 from-gray-800 to-gray-500 bg-clip-text text-transparent text-lg">
                     {feature.description}
                   </div>
                 </div>

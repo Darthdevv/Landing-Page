@@ -51,8 +51,8 @@ const components: { title: string; description: string }[] = [
 
 export function NavigationBar() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList className="p-6 hidden md:flex md:space-x-3">
+    <NavigationMenu aria-label="dropdown-menu">
+      <NavigationMenuList aria-label="dropdown-menu-list" className="p-6 hidden md:flex md:space-x-3">
         <NavigationMenuItem>
           <NavigationMenuTrigger>Getting Started</NavigationMenuTrigger>
           <NavigationMenuContent>

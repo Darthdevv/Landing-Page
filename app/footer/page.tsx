@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div
+    <footer
       className=" border-t-[1px] hidden md:block"
     >
       <div className="flex justify-evenly gap-4 p-4">
@@ -10,7 +10,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

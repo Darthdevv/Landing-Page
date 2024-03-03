@@ -24,9 +24,9 @@ const features = [
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center">
       <div
-        className=" text-4xl text-center md:text-6xl font-bold bg-gradient-to-r from-black to-gray-500 bg-clip-text text-transparent md:pb-10">
+        className=" text-4xl text-center md:text-6xl font-bold bg-gradient-to-r from-black dark:from-white dark:to-gray-500 to-gray-500 bg-clip-text text-transparent md:pb-10">
         Pricing
         <div className="text-2xl text-center md:text-4xl font-bold md:py-10">
           Simple and transparent pricing plans for all businesses.
@@ -51,7 +51,7 @@ const Pricing = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
