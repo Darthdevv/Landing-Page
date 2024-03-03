@@ -3,6 +3,9 @@ import Firstsection from "./firstsection/page"
 import Navbar from "./navbar/page"
 import FifthSection from "./fifthsection/page"
 import Footer from "./footer/page"
+import FourthSection from "./fourthsection/page"
+import ThirdSection from "./thirdsection/page"
+import SecondSection from "./secondsection/page"
 
 
 const Home = () => {
@@ -11,6 +14,9 @@ const Home = () => {
       <Navbar />
       <Firstsection />
       <Carousel />
+      <SecondSection/>
+      <ThirdSection/>
+      <FourthSection/>
       <FifthSection />
       <Footer/>
     </>
