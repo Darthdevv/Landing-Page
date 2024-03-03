@@ -1,4 +1,15 @@
+# shadcn/ui
+
+Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. 
+
+## Documentation
+
+Visit http://ui.shadcn.com/docs to view the documentation.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Screenshot
+![ScreenShot](public/images/screenshot.png)
 
 ## Getting Started
 
