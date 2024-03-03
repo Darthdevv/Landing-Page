@@ -8,7 +8,7 @@ const ThirdSection = () => {
       <div className="flex-col md:flex-row gap-6 md:px-10 flex">
         <div className="md:w-2/3 w-full">
           <video className="rounded-xl" autoPlay muted loop>
-            <source src="/content/video-3.mp4" type="video/mp4" />
+            <source src="/content/video-4.mp4" type="video/mp4" />
           </video>
         </div>
 

@@ -6,7 +6,7 @@ const FourthSection = () => {
         Content Management System.Made Simple.
         <div className="justify-center items-center flex md:pt-10 p-10">
           <video className="rounded-xl md:w-2/3" autoPlay muted loop>
-            <source src="/content/video-4.mp4" type="video/mp4" />
+            <source src="/content/video-1.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
