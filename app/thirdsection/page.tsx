@@ -2,9 +2,7 @@ import Image from "next/image";
 
 const ThirdSection = () => {
   return (
-    <div
-      className="flex p-10 flex-col md:flex-row md:justify-evenly"
-    >
+    <div className="flex p-10 flex-col md:flex-row md:justify-evenly">
       <div className="flex-col md:flex-row gap-6 md:px-10 flex">
         <div className="md:w-2/3 w-full">
           <video className="rounded-xl" autoPlay muted loop>
@@ -13,9 +11,7 @@ const ThirdSection = () => {
         </div>
 
         <div className="flex-col border p-4 rounded-xl md:w-2/5">
-          <div
-            className="text-4xl flex justify-center text-center md:text-6xl bg-gradient-to-l  from-yellow-300  to-blue-300 bg-clip-text font-bold text-transparent "
-          >
+          <div className="text-4xl flex justify-center text-center md:text-6xl bg-gradient-to-l  from-yellow-300  to-blue-300 bg-clip-text font-bold text-transparent ">
             Fully Customizable eCommerce
           </div>
 
@@ -26,6 +22,7 @@ const ThirdSection = () => {
                 alt="feature-1"
                 width={70}
                 height={70}
+                className=" object-contain"
               />
               <div className="flex flex-col gap-2">
                 Choose from a variety of store templates to get started. And
@@ -40,6 +37,7 @@ const ThirdSection = () => {
                   alt="feature-1"
                   width={70}
                   height={70}
+                  className=" object-contain"
                 />
                 <div>
                   Add unlimited products and variations. And manage your
@@ -55,6 +53,7 @@ const ThirdSection = () => {
                   alt="feature-1"
                   width={70}
                   height={70}
+                  className=" object-contain"
                 />
                 <div>
                   Gain valuable insights into your customers and products with
@@ -70,6 +69,7 @@ const ThirdSection = () => {
                   alt="feature-1"
                   width={70}
                   height={70}
+                  className=" object-contain"
                 />
                 <div>
                   Best in class security to protect your data and your
