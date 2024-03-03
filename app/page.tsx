@@ -1,6 +1,8 @@
 import Carousel from "@/components/carousel"
-import Firstsection from "./firstsection/first-section"
+import Firstsection from "./firstsection/page"
 import Navbar from "./navbar/page"
+import FifthSection from "./fifthsection/page"
+import Footer from "./footer/page"
 
 
 const Home = () => {
@@ -8,7 +10,9 @@ const Home = () => {
     <>
       <Navbar />
       <Firstsection />
-      <Carousel/>
+      <Carousel />
+      <FifthSection />
+      <Footer/>
     </>
   )
 }
